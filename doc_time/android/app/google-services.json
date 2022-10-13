@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "694315825768",
+    "project_id": "doctime-4c848",
+    "storage_bucket": "doctime-4c848.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694315825768:android:a5146a1f01d89852b6d9dd",
+        "android_client_info": {
+          "package_name": "com.doctor_time.doc_time"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694315825768-de44u5eaf40dsktmijba2iiu9o94dloa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNAspvdFutq1s-ye6sgGVYyOh_PMJq0cM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694315825768-de44u5eaf40dsktmijba2iiu9o94dloa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
