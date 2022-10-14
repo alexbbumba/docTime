@@ -92,7 +92,7 @@ class _SearchListState extends State<SearchList> {
                                   children: [
                                     CircleAvatar(
                                       backgroundImage:
-                                          NetworkImage(doctor['img']),
+                                          NetworkImage(doctor['profilePhoto']),
                                       backgroundColor: Colors.blue,
                                       radius: 25,
                                     ),

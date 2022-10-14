@@ -41,7 +41,7 @@ class _DoctorOrPatientState extends State<DoctorOrPatient> {
     return _isLoading
         ? const Scaffold(body: Center(child: CircularProgressIndicator()))
         : isDoctor
-            ? const MainDoctor()
+            ? const MainPageDoctor()
             : const MainPatient();
   }
 }

@@ -46,7 +46,7 @@ class _MyAppState extends State<MyApp> {
         '/': (context) =>
             user == null ? const Wrapper() : const DoctorOrPatient(),
         '/decision': (context) =>
-            isDoctor ? const MainDoctor() : const MainPatient(),
+            isDoctor ? const MainPageDoctor() : const MainPatient(),
         '/home': (context) => Home(),
         '/booking': (context) => BookingScreen(doctor: '', doctorUid: '')
       },

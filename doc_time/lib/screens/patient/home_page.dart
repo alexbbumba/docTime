@@ -24,7 +24,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:doc_time/carousel_slider.dart';
 //import 'package:health_app/firestore_data/notification_list.dart';
 import 'package:doc_time/firestore_data/search_list.dart';
-// import 'package:health_app/firestore_data/top_rated_list.dart';
+import 'package:doc_time/firestore_data/top_rated_list.dart';
 import 'package:doc_time/model/card_model.dart';
 // import 'package:health_app/screens/explore_list.dart';
 import 'package:intl/intl.dart';
@@ -152,7 +152,7 @@ class _HomePageState extends State<HomePage> {
                     alignment: Alignment.centerLeft,
                     padding: const EdgeInsets.only(left: 20, bottom: 25),
                     child: Text(
-                      "Let's Find Your\nDoctor",
+                      "Welcome to docTime",
                       style: GoogleFonts.lato(
                         fontSize: 35,
                         fontWeight: FontWeight.bold,
@@ -346,7 +346,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   Container(
                     padding: const EdgeInsets.only(left: 15, right: 15),
-                    // child: const TopRatedList(),
+                    child: const TopRatedList(),
                   ),
                   const SizedBox(
                     height: 20,

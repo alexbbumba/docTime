@@ -63,7 +63,7 @@ class _SignInState extends State<SignIn> {
             SizedBox(
               width: double.infinity,
               child: Image.asset(
-                'assets/doc1.jpg',
+                'assets/group1.jpg',
                 scale: 3.5,
               ),
             ),

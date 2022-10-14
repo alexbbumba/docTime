@@ -48,6 +48,7 @@ dependencies:
   flutter_tabler_icons: ^1.1.1
   tabler_icons: ^0.0.3
   intl: ^0.17.0
+  image_picker: ^0.8.6
 
 dev_dependencies:
   flutter_test:

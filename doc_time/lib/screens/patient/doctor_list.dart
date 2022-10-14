@@ -127,7 +127,7 @@ class _DoctorsListState extends State<DoctorsList> {
                         ),
                       ),
                     ),
-                    const Image(image: AssetImage('assets/error-404.jpg')),
+                    const Image(image: AssetImage('assets/group2.jpg')),
                   ],
                 ),
               )

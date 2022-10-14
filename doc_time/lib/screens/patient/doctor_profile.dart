@@ -70,7 +70,8 @@ class _DoctorProfileState extends State<DoctorProfile> {
 
                         // doctor profile pic
                         CircleAvatar(
-                          backgroundImage: NetworkImage(document['img'] ?? ''),
+                          backgroundImage:
+                              NetworkImage(document['profilePhoto'] ?? ''),
                           backgroundColor: Colors.lightBlue[100],
                           radius: 80,
                         ),
