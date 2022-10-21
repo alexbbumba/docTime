@@ -3,7 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:doc_time/globals.dart';
-//import 'package:doc_time/helperFunction/sharedpref_helper.dart';
+//import 'package:doc_time/helperFunction/shared-pref_helper.dart';
 import 'package:doc_time/screens/authenticate/register.dart';
 
 class SignIn extends StatefulWidget {
@@ -60,11 +60,15 @@ class _SignInState extends State<SignIn> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            SizedBox(
-              width: double.infinity,
-              child: Image.asset(
-                'assets/group1.jpg',
-                scale: 3.5,
+            Container(
+              width: 200,
+              height: 200,
+              decoration: const BoxDecoration(
+                shape: BoxShape.circle,
+                image: DecorationImage(
+                  image: AssetImage('assets/group1.jpg'),
+                  fit: BoxFit.fill
+                ),
               ),
             ),
             const SizedBox(
@@ -155,7 +159,7 @@ class _SignInState extends State<SignIn> {
               },
               textInputAction: TextInputAction.done,
               validator: (value) {
-                if (value!.isEmpty) return 'Please enter the Passord';
+                if (value!.isEmpty) return 'Please enter the Password';
                 return null;
               },
               obscureText: true,
