@@ -13,7 +13,7 @@ class _ChatsState extends State<Chats> {
     return Scaffold(
       appBar: AppBar(
         actions: [],
-        title: Text('chat rooms'),
+        title: Text('chat room'),
       ),
     );
   }
