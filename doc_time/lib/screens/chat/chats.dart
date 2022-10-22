@@ -12,8 +12,8 @@ class _ChatsState extends State<Chats> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        actions: [],
-        title: Text('chat room'),
+        actions: const [],
+        title: const Text('chat room'),
       ),
     );
   }
