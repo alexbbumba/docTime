@@ -109,7 +109,7 @@ class _DocDetailsState extends State<DocDetails> {
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(10.0),
                             color: Colors.blue),
-                        child: Text('Schedule Appointment'),
+                        child: const Text('Schedule Appointment'),
                       ),
                     )
                   ],
